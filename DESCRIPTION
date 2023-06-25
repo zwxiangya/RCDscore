@@ -1,0 +1,24 @@
+Package: RCDscore
+Type: Package
+Title: This package is used for calculating the RCD score to evaluate
+        the RCD status in bulk level and single cell level
+Version: 0.1.0
+Date: 2023-06-19
+Description: This package contains the 18 regulated cell death signatures 
+          , a function to calculate the RCD level and two model to predict the ICI response and OS
+Author: Wei Zhang
+Maintainer: Wei Zhang <2204170416@csu.edu.cn>
+biocViews: Regulated cell death, Classification, RNASeq, Microarray,
+        Software, GeneExpression, ICI response, OS prediction
+Depends: R (>= 2.10)
+Suggests: RUnit,
+        BiocGenerics,caret,doParallel,dplyr,GSEABase,GSVA,multiGSEA,parallel
+License: MIT + file LICENSE
+InstallableEverywhere: yes
+RoxygenNote: 7.2.3
+encoding: UTF-8
+Imports: caret (>= 1.0), doParallel (>= 1.0), dplyr (>= 1.0), GSEABase
+        (>= 1.0), GSVA (>= 1.0), magrittr, multiGSEA (>= 1.0), parallel
+        (>= 1.0)
+NeedsCompilation: no
+Packaged: 2023-06-25 21:02:56 UTC; xiongzj
